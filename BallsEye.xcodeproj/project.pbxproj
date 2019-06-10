@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9192CF8B22AE321100144CE2 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9192CF8A22AE321100144CE2 /* AboutViewController.swift */; };
+		9192CF8D22AE348F00144CE2 /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9192CF8C22AE348F00144CE2 /* AboutAuthorViewController.swift */; };
 		91DE6B7822ACD10D00784FE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DE6B7722ACD10D00784FE0 /* AppDelegate.swift */; };
 		91DE6B7A22ACD10D00784FE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DE6B7922ACD10D00784FE0 /* ViewController.swift */; };
 		91DE6B7D22ACD10D00784FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91DE6B7B22ACD10D00784FE0 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9192CF8A22AE321100144CE2 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		9192CF8C22AE348F00144CE2 /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
 		91DE6B7422ACD10D00784FE0 /* BallsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DE6B7722ACD10D00784FE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91DE6B7922ACD10D00784FE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				91DE6B7722ACD10D00784FE0 /* AppDelegate.swift */,
 				91DE6B7922ACD10D00784FE0 /* ViewController.swift */,
 				91DE6B7B22ACD10D00784FE0 /* Main.storyboard */,
+				9192CF8C22AE348F00144CE2 /* AboutAuthorViewController.swift */,
+				9192CF8A22AE321100144CE2 /* AboutViewController.swift */,
 				91DE6B7E22ACD10F00784FE0 /* Assets.xcassets */,
 				91DE6B8022ACD10F00784FE0 /* LaunchScreen.storyboard */,
 				91DE6B8322ACD10F00784FE0 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9192CF8B22AE321100144CE2 /* AboutViewController.swift in Sources */,
 				91DE6B7A22ACD10D00784FE0 /* ViewController.swift in Sources */,
 				91DE6B7822ACD10D00784FE0 /* AppDelegate.swift in Sources */,
+				9192CF8D22AE348F00144CE2 /* AboutAuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y59QZ4ZBQ8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BallsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y59QZ4ZBQ8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BallsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
