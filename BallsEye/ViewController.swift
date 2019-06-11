@@ -62,7 +62,7 @@ class ViewController: UIViewController {
         }
         
         score += points
-        let message = "You scored \(points)"
+        let message = "You hit \(currentValue) \nYou scored \(points)"
         
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         
